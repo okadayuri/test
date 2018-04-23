@@ -7,12 +7,12 @@
 
   <servlet>
     <servlet-name>Hello</servlet-name>
-    <servlet-class>HelloServlet2</servlet-class>
+    <servlet-class>HelloServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
     <servlet-name>Hello</servlet-name>
-    <url-pattern>HelloServlet2/HelloServlet2</url-pattern>
+    <url-pattern>HelloServlet/HelloServlet</url-pattern>
   </servlet-mapping>
 
   <servlet>
@@ -22,6 +22,6 @@
 
   <servlet-mapping>
     <servlet-name>Welcome</servlet-name>
-    <url-pattern>HelloServlet2/HelloServlet2</url-pattern>
+    <url-pattern>HelloServlet/HelloServlet</url-pattern>
   </servlet-mapping>
 </web-app>
